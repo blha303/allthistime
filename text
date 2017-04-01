@@ -25,26 +25,31 @@ Recreated by blha303 with love and apologies
 
 g1
 You are in a factory.
+
 >*<
 
 g2
 It's an enormous room. If there were walls, they're too far away for you to make
 out. You assume there is a ceiling somewhere above you, but when you look up,
 you see only an impenetrable darkness.
+
 >*<
 
 g3
 In front of you is a short CONVEYOR BELT that stretches between two columns.
 There are other people standing at similar conveyor belts all around you, in
 all directions, as far as the eye can see.
+
 >*<
 
 g4
 In your hand is a PICTURE OF THE MOON.
+
 >*<
 
 t_fail_already
 You can't take the {} because you already have it.
+
 >*<
 
 

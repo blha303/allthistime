@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+import argparse
 
 seqs = {
     "intro": ["intro", "g1", "g2", "g3", "g4"],
@@ -15,4 +17,13 @@ class Text:
         return self.blocks[tag]
 
 def main():
-    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("block", help="Text block to print")
+    args = parser.parse_args()
+    t = Text()
+    print(t.get(args.block))
+    return 0
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main())
