@@ -18,38 +18,49 @@ A Text Adventure Game
 Copyright (c) 2017 Jonathan Coulton Inc., All rights reserved.
 Revision 79 / Serial number 58784
 Recreated by blha303 with love and apologies
-
-
-
 >*<
 
 g1
 You are in a factory.
-
 >*<
 
 g2
 It's an enormous room. If there were walls, they're too far away for you to make
 out. You assume there is a ceiling somewhere above you, but when you look up,
 you see only an impenetrable darkness.
-
 >*<
 
 g3
 In front of you is a short CONVEYOR BELT that stretches between two columns.
 There are other people standing at similar conveyor belts all around you, in
 all directions, as far as the eye can see.
-
 >*<
 
 g4
 In your hand is a PICTURE OF THE MOON.
-
 >*<
 
 t_fail_already
 You can't take the {} because you already have it.
-
 >*<
 
+conveyor1
+.
+>*<
 
+conveyor2
+..
+>*<
+
+conveyor3
+...
+>*<
+
+conveyor_start
+A WIDGET emerges from a hole in the left column. It moves along the conveyor
+belt and stops in front of you.
+>*<
+
+conveyor_running
+It's already running!
+>*<
